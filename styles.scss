@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Quicksand:wght@300;700&display=swap');
 
 html, body {
     font-family: 'Quicksand';
@@ -102,6 +102,29 @@ header {
     }
 }
 
+#information {
+    width: 80%;
+    height: 150vh;
+    background-color: black;
+    color: white;
+    padding-top: 20vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 200px;
+    }
+
+    p {
+        font-size: 1.7rem;
+        font-weight: 300;
+        color: gray;
+    }
+
+}
+
 @media screen and (max-width: 450px) {
 
     nav > ul {
@@ -128,6 +151,15 @@ header {
                 width: 100%;
                 height: auto;
             }
+        }
+    }
+}
+
+@media screen and (max-width: 873px) {
+    #information {
+        h1 {
+            font-size: 100px;
+            line-height: 85px;
         }
     }
 }
