@@ -28,6 +28,19 @@ nav > ul {
 section {
     height: calc(100vh-60px);
     width: 100%;
+
+    #hero-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+        padding-top: 0;
+
+        img {
+            width: 70%;
+            height: auto;
+        }
+    }
 }
 
 header {
@@ -76,7 +89,7 @@ header {
             min-width: 160px;
             text-transform: uppercase;
             white-space: normal;
-            font-weight: 700;
+            font-weight: 300;
             text-align: center;
             padding: 16px 14px 18px;
             color: #fff;
@@ -106,6 +119,15 @@ header {
     header {
         .right {
             display: none;
+        }
+    }
+
+    section {
+        #hero-img {
+            img {
+                width: 100%;
+                height: auto;
+            }
         }
     }
 }
